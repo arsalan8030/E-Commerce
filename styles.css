@@ -519,6 +519,15 @@
         margin-bottom: 30px;
     }
 
+     .feature-products .product-container .product-card {
+        flex-basis: 100%;
+
+        .product-title, .starsPng, .product-rps{
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+
     .smart-watch-container {
         flex-direction: column;
         text-align: center;
@@ -530,6 +539,7 @@
 
     .testimonal .testimonalContainer .testimonalCards{
         flex-basis: 100%;
+        
     }
 
     .footer .footerInnerContainer{
@@ -543,4 +553,6 @@
             flex-direction: column;
         }
     }
+
+
 }
